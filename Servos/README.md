@@ -1,5 +1,5 @@
-**Servo synchronization using audio signals and mapping technique
-This repository contains code for servo synchronization using audio signals and a mapping technique. The code uses pulse width modulation (PWM) to generate the audio signals.**
+# **Servo synchronization using audio signals and mapping technique**
+# This repository contains code for servo synchronization using audio signals and a mapping technique. The code uses pulse width modulation (PWM) to generate the audio signals. 
 
 ## How it works: 
 
