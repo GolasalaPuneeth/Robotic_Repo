@@ -21,6 +21,8 @@ To use the code, simply connect the servo motors to the microcontroller. Then, u
 
 Once the code is uploaded, you can start the servo synchronization by sending an audio signal to the microcontroller. The servos will then move to the positions that are mapped to the audio signal.
 
+To use the code, simply connect the servo motor to the Arduino board's PWM pin 9. Then, connect the audio input signal to the Arduino's analog input pin A2.
+
 ## Benefits: 
 
 This method of servo synchronization has several benefits:
