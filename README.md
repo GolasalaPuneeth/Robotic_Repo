@@ -18,6 +18,4 @@ This repository will contain the following content:
 
 If you would like to contribute to this repository, please feel free to fork it and create a pull request. We welcome contributions of all kinds, including tutorials, projects, and resources.
 
-**License:**
 
-This repository is licensed under the MIT License.
