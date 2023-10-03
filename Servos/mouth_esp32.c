@@ -2,6 +2,7 @@
 // creating a servo object
 Servo myservo;
 
+
 int ServoPin = 18;
 int SoundInPin = 34;
 
