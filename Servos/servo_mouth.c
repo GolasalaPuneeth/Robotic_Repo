@@ -16,28 +16,21 @@ void setup()
 void loop()
 {
     int sensorValue = analogRead(SoundInPin);
-    Serial.println("sensor value ...");
-    Serial.println(sensorValue);
-    sensorValue = map(sensorValue, 0, 40, 90, 130);
-    Serial.println("sensor value after mapping ...");
-    
-    myservo.write(90);
-   sensorValue=sensorValue+7;
-   Serial.println(sensorValue);
-    if (sensorValue > 110 && sensorValue <140)
+    int sensor_Value = map(sensorValue, 0, 250, 90, 0);
+    // Serial.println("sensor value after mapping ...");
+    Serial.println(sensor_Value);
+    if (sensor_Value < 80 && sensor_Value > 65)
     {
-        for (short i = 90; i <= sensorValue; i++)
+        //sensor_Value = sensor_Value - 7;
+        for (short i = 90; i >= sensor_Value; i--)
         {
             myservo.write(i);
-            delay(5);
+            delay(12);
         }
-    
-
-        for (short j = sensorValue; j >= 90; j--)
+        for (short j = sensor_Value; j <= 90; j++)
         {
             myservo.write(j);
-            delay(5);
+            delay(12);
         }
-   
-}
+    }
 }
